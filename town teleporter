@@ -1,0 +1,104 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Town (TELEPORT)", "BloodTheme")
+
+
+
+
+--big housee
+local Tab = Window:NewTab("Big House")
+local Section = Tab:NewSection("Locations To TP")
+
+Section:NewButton("Big House Enterance", "Teleports You TO big house", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.6677474975586, 7.972477912902832, -29.35118293762207)
+end)
+
+Section:NewButton("Big House Shower", "Teleports You TO big house", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(74.7249755859375, 8.222472190856934, -63.74481201171875)
+end)
+
+Section:NewButton("Big House 4 Windows", "Teleports You TO big house", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(81.731201171875, 20.972457885742188, -19.162612915039062)
+end)
+-- main house
+local Tab = Window:NewTab("Piano House")
+local Section = Tab:NewSection("Locations To TP")
+
+Section:NewButton("Piano House Enterance", "Teleports You TO Enterance", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.926392078399658, 7.19999885559082, 140.2796173095703)
+end)
+
+Section:NewButton("Piano House Kitchen", "Teleports You TO Kitchen", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-23.547048568725586, 7.200000762939453, 168.78631591796875)
+end)
+
+Section:NewButton("Piano House Garage", "Teleports You TO PGarage", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-15.85224723815918, 6.199999809265137, 138.1249542236328)
+end)
+
+Section:NewButton("Piano House Girl Room", "Teleports You TO KidRoom", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48.90930938720703, 7.399997711181641, 139.0221405029297)
+end)
+
+Section:NewButton("Piano House Boy Room", "Teleports You TO KidRoom", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(52.18365478515625, 7.199999809265137, 171.86190795898438)
+end)
+
+Section:NewButton("Piano House Computer Room", "Teleports You TO Room", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(80.6974105834961, 7.19999885559082, 135.42942810058594)
+end)
+
+Section:NewButton("Piano House Computer Room (Closet)", "Teleports You TO Room", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(89.51744842529297, 7.19999885559082, 149.44252014160156)
+end)
+
+Section:NewButton("Piano House Bathroom", "Teleports You TO Bathroom", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(82.47935485839844, 7.19999885559082, 157.6068572998047)
+end)
+
+Section:NewButton("Piano House BedRoom", "Teleports You TO Bedroom", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(82.13800048828125, 7.19999885559082, 184.79283142089844)
+end)
+
+Section:NewButton("Piano House BedRoom(Closet)", "Teleports You TO Bedroom", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(89.28102111816406, 7.19999885559082, 168.8623046875)
+end)
+
+local Tab = Window:NewTab("Car Generators")
+local Section = Tab:NewSection("Locations To TP")
+
+Section:NewButton("Generator", "Teleports You TO Generator", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.534076690673828, 6.199999809265137, -43.43830871582031)
+end)
+
+Section:NewButton("Generator2(BackAlley)", "Teleports You TO Generator", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(58.18324279785156, 6.19999885559082, -107.25629425048828)
+end)
+
+local Tab = Window:NewTab("Safe Places")
+local Section = Tab:NewSection("Locations To TP")
+
+
+Section:NewButton("BackAlley House", "Teleports You TO AlleyHouse", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-50.10141372680664, 6.000000953674316, -92.42848205566406)
+end)
+
+Section:NewButton("Gas Shop (in)", "Teleports You TO AlleyHouse", function()
+    print("Clicked")
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-263.6197509765625, 7.19999885559082, 223.91921997070312)
+end)
